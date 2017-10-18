@@ -1,0 +1,461 @@
+/* -----------------------------------------
+:: THEME.CSS
+----------------------------------------- */
+main {
+	position: relative; /*z-index: 2; */ ;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	padding: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* -----------------------------------------
+:: HEADER
+----------------------------------------- */
+.header {
+	background: #FEFEFE url('../themed-images/backgrounds/header-bg.jpg') no-repeat fixed 90% 50%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+
+.menu-bar {
+	width: 100%;
+	min-height: 101px;
+	background: #222222;
+	background: rgba(34, 34, 34, 0.25);
+	position: relative;
+}
+
+.social-bar {
+	width: 100%;
+	min-height: 40px;
+	background: #130238;
+}
+
+.breadcrumb-bar {
+	position: relative;
+	width: 100%;
+	min-height: 80px;
+	background: #874387;
+	background: rgba(51,102,153, 0.90);
+}
+
+.breadcrumb-bar:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	width: 100%;
+	height: 80px;
+}
+
+/* -----------------------------------------
+:: PARRALAX
+----------------------------------------- */
+.section-bg-a {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-a.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-bg-b {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-b.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-bg-c {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-c.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-bg-d {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-d.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-bg-e {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-e.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-bg-f {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-f.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-bg-g {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-g.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-bg-h {
+	position: relative;
+	background-image: url('../themed-images/backgrounds/section-bg-h.jpg');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* -----------------------------------------
+:: SECTIONS
+----------------------------------------- */
+.section1 {
+	/*background: url('../graphics/section1-top-left.png') left top no-repeat, url('../graphics/section1-top-right.png') right top no-repeat, url('../graphics/section1-bg.png');*/
+	position: relative;
+	background: #ffffff;
+	padding: 100px 0 100px 0;
+}
+
+.section2 {
+	/*background: url('../graphics/section2-top-left.png') left top no-repeat, url('../graphics/section2-top-right.png') right top no-repeat;*/
+	position: relative;
+	background: #ffffff;
+	padding: 100px 0 100px 0;
+}
+
+.section2-5 {
+	/*background: url('../graphics/section2-top-left.png') left top no-repeat, url('../graphics/section2-top-right.png') right top no-repeat, url('../graphics/section5-bg.png') center center repeat-x;*/
+	position: relative; ;
+	background: #ffffff;
+	padding: 100px 0 100px 0;
+}
+
+.section2-6 {
+	/*background: url('../graphics/section2-top-left.png') left top no-repeat, url('../graphics/section2-top-right.png') right top no-repeat, url('../graphics/section6-bottom.png') center bottom repeat-x;*/
+	position: relative; ;
+	background: #ffffff;
+	padding: 100px 0 100px 0;
+}
+
+.section3 {
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+}
+
+.section3 .wrapper {
+	background: #222222;
+	background: /*url('../graphics/section3-dots.png') left center,*/ rgba(34, 34, 34, 0.65);
+}
+
+.section3 .row {
+	padding: 30px 0 30px 0;
+}
+
+.section3.video {
+	background-image: none;
+}
+
+.section3.map {
+	background-image: none;
+}
+
+.section3-social {
+	position: relative;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.social-content-header {
+	padding: 30px 20px;
+}
+
+.section4 {
+	position: relative;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	/*background: url('../graphics/section4-bg.png') left center repeat-x;*/
+}
+
+.section4 .row {
+	padding: 60px 0 60px 0;
+}
+
+.section5 {
+	position: relative; /*background: url('../graphics/section5-bg.png') left center repeat-x, #ffffff;*/;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	padding: 100px 0 100px 0;
+}
+
+.section6 {
+	position: relative;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	/*background: url('../graphics/section6-top.png') center top repeat-x, url('../graphics/section6-bottom.png') center bottom repeat-x;*/
+}
+
+.section6-top {
+	position: relative;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	/*background: url('../graphics/section6-top.png') center top repeat-x;*/
+}
+
+.section6-bottom {
+	position: relative;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	/*background: url('../graphics/section6-bottom.png') center bottom repeat-x;*/
+}
+
+.section7 {
+	position: relative;
+	width: 100%;
+	display: table;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.section7 > div {
+	width: 50%;
+	display: table-cell;
+}
+
+.section7-light {
+}
+
+.section7-dark {
+	position: relative;
+	background: #222222;
+}
+
+.section8 {
+	position: relative;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	/*background: url('../graphics/section8-bg2.png') center top no-repeat, url('../graphics/section8-bg.png') center center;*/
+}
+
+.section9 {
+	position: relative;
+	width: 100%;
+	display: table;
+	background: #eeeeee;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.section9 > div {
+	width: 50%;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.section9-dark {
+	position: relative;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:992px) {
+.section9 > div {
+	width: 100%;
+	display: block;
+	vertical-align: top;
+}
+
+}
+/* contact.htm with half map */
+.contact-half-map {
+	height: 400px;
+	position: relative;
+}
+
+.map-left {
+	background: rgba(34, 34, 34, 0.88);
+	background: /*url('../graphics/section3-dots.png') left center,*/ rgba(34, 34, 34, 0.88);
+	position: relative;
+	z-index: 1;
+	height: 400px;
+	width: 50%;
+	padding-left: 100px;
+}
+
+.map-left:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: rgba(34, 34, 34, 0.88);
+	border-width: 30px;
+	margin-top: -30px;
+}
+
+.con-heading1-dark p.address {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.con-heading1-dark p.address span {
+	font-size: 16px;
+	margin: 0px 20px 10px 20px;
+	font-weight: 400;
+	line-height: 1;
+	padding: 0;
+}
+
+/* -----------------------------------------
+:: DIVIDERS
+----------------------------------------- */
+.divider1 {
+	height: 0px;
+	width: 100%;
+	position: relative;
+}
+
+.divider2 {
+	height: 0px;
+	width: 100%;
+	position: relative;
+}
+
+.divider3 {
+	height: 40px;
+	width: 100%;
+	position: relative;
+}
+
+.divider4 {
+	height: 40px;
+	width: 100%;
+	position: relative;
+	margin: 20px auto;
+}
+
+.divider3-top {
+	height: 40px;
+	width: 100%;
+	position: relative;
+}
+
+.divider3-bottom {
+	height: 40px;
+	width: 100%;
+	position: relative;
+}
+
+.divider2-top {
+	height: 40px;
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #874387;
+}
+
+.divider2-bottom {
+	height: 40px;
+	width: 100%;
+	position: relative;
+	border-top: 1px solid #874387;
+}
+
+.divider5 {
+	height: 17px;
+	width: 100%;
+	position: relative;
+	background: url('../graphics/divider5-bg.png') center center repeat-x;
+}
+
+/* -----------------------------------------
+:: FOOTER
+----------------------------------------- */
+.footer-bg {
+	position: relative;
+	background: #81BAA8;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #efefef;
+	font-size: 80%;
+}
+
+.footer-top, .footer-bottom {
+	background: #336699;
+	height: 40px;
+	width: 100%;
+	position: relative;
+}
+
+.footer-bg div.row {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-bg div.row i {
+	color: #336699;
+}
+
+.footer-bg h1, .footer-bg h2, .footer-bg h3, .footer-bg h4, .footer-bg h5, .footer-bg h6 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* -----------------------------------------
+:: COPYRIGHT
+----------------------------------------- */
+.copyright {
+	position: relative;
+	background: #130238;
+	font-family: Raleway, sans-serif;
+	font-size: 90%;
+	color: #ccc;
+	line-height: 30px;
+	padding: 5px 0px 20px 0px;
+}
+
+.copyright h1, .copyright h2, .copyright h3, .copyright h4, .copyright h5, .copyright h6, .copyright p, .copyright a {
+	color: #ccc;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
