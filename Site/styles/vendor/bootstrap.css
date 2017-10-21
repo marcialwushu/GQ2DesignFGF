@@ -1315,8 +1315,8 @@ textarea.form-group-lg .form-control, select[multiple].form-group-lg .form-contr
 
 .btn-primary {
     color: #ffffff;
-    background-color: #874387;
-    border-color: #AC57AC;
+    background-color: #336699;
+    border-color: #FAEC40;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
