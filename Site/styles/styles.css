@@ -30,12 +30,12 @@ body {
 :: LINKS
 ----------------------------------------- */
 a {
-	color: #874387;
+	color: #336699;
 	text-decoration: none;
 }
 
 a:hover, a:focus {
-	color: #222222;
+	color: #336699;
 	text-decoration: none;
 	outline: none;
 }
@@ -535,7 +535,7 @@ h6, .h6 {
 }
 
 .con-heading1-dark h2:nth-of-type(2) {
-    color: #874387;
+    color: #A5BC49;
     font-weight: 800;
 }
 /*content heading2*/
@@ -579,7 +579,7 @@ h6, .h6 {
 }
 
 .con-heading2 h3:nth-of-type(2) {
-    color: #874387;
+    color: #A5BC49;
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 10px;
@@ -743,7 +743,7 @@ h6, .h6 {
 	float: left;
 	margin: 5px 5px 0px 0px;
 	clear: both;
-	color: #874387;
+	color: #A5BC49;
 }
 
 .con-heading4-dark h3 {
@@ -758,7 +758,7 @@ h6, .h6 {
 }
 
 .con-heading4-dark h3:nth-of-type(2) {
-    color: #874387;
+    color: #A5BC49;
     font-weight: 800;
     font-size: 20px;
 }

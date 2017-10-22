@@ -11,7 +11,7 @@
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	background: #874387 url(../graphics/cd-top-arrow.svg) no-repeat center 50%;
+	background: #336699 url(Site/graphics/cd-top-arrow.svg) no-repeat center 50%;
 	visibility: hidden;
 	opacity: 0;
 	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -298,13 +298,13 @@
 .btn-quotes {
 	border-radius: 25px;
 	padding: 10px 100px;
-	background: #874387;
+	background: #336699;
 	width: 400px;
 }
 
 .btn-quotes span img {
 	border-radius: 50%;
-	border: 5px solid #874387;
+	border: 5px solid #336699;
 	max-width: 90px;
 	max-height: 90px;
 }
@@ -3442,7 +3442,7 @@ xkeyframes
 	line-height: 22px;
 	color: #ffffff;
 	text-align: center;
-	background-color: #874387;
+	background-color: #A5BC49;
 	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.0);
 	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.0);
 	-webkit-transition: width 0.6s ease;
@@ -4220,7 +4220,7 @@ form#prodreview div.row div.col-sm-12 input {
 }
 
 #bs-quotes.carousel.slide .carousel-caption h3 {
-	color: #874387;
+	color: #336699;
 	font-size: 50px;
 	font-family: "Raleway",sans-serif;
 	font-weight: 700;
@@ -4549,7 +4549,7 @@ form#prodreview div.row div.col-sm-12 input {
 #ibc .ibc-img-thumbnail {
 	background: rgba(255, 255, 255, 0.0);
 	border: 5px #ffffff solid;
-	border: 5px rgba(255,255,255,0.5) solid;
+	border: 5px rgba(51,102,153,0.5) solid;
 	border-radius: 0%;
 	display: inline-block;
 	height: auto;
@@ -4561,23 +4561,23 @@ form#prodreview div.row div.col-sm-12 input {
 }
 
 #ibc .ibc-bg1 .ibc-img-thumbnail:hover {
-	background: rgba(255, 255, 255, 1.0);
-	border: 5px #874387 solid;
+	background: rgba(165, 188, 73, 1.0);
+	border: 5px #A5BC49 solid;
 }
 
 #ibc .ibc-bg2 .ibc-img-thumbnail:hover {
 	background: rgba(255, 255, 255, 1.0);
-	border: 5px #874387 solid;
+	border: 5px #A5BC49 solid;
 }
 
 #ibc .ibc-bg3 .ibc-img-thumbnail:hover {
 	background: rgba(255, 255, 255, 1.0);
-	border: 5px #874387 solid;
+	border: 5px #A5BC49 solid;
 }
 
 #ibc .ibc-bg4 .ibc-img-thumbnail:hover {
 	background: rgba(255, 255, 255, 1.0);
-	border: 5px #874387 solid;
+	border: 5px #A5BC49 solid;
 }
 
 #ibc .ibc-bg1 h3, #ibc .info-box-wrapper h1, #ibc .info-box-wrapper h2, #ibc .info-box-wrapper h3, #ibc .info-box-wrapper h4, #ibc .ibc-bg1 h1, #ibc .ibc-bg1 h2, #ibc .ibc-bg1 h3, #ibc .ibc-bg1 h4, #ibc .ibc-bg2 h1, #ibc .ibc-bg2 h2, #ibc .ibc-bg2 h3, #ibc .ibc-bg2 h4, #ibc .ibc-bg3 h1, #ibc .ibc-bg3 h2, #ibc .ibc-bg3 h3, #ibc .ibc-bg3 h4, #ibc .ibc-bg4 h1, #ibc .ibc-bg4 h2, #ibc .ibc-bg4 h3, #ibc .ibc-bg4 h4 {
