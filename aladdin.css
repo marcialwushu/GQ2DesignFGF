@@ -1,0 +1,105 @@
+* {
+  margin:0;
+  padding:0;
+}
+body, html {
+  height: 100%;
+  font-family: 'VT323', sans-serif;
+} 
+
+h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  z-index: 1;
+}
+
+/* Parallax base styles
+  --------------------------------------------- */
+
+.parallax {
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+
+/* add some padding to force scrollbars */
+.parallax__layer {
+  
+  pointer-events: none;
+}
+
+/* Art */
+body {
+  background: linear-gradient(#401d61 0%, #793eb3 100%);
+}
+.background {
+  position: absolute;
+  display: block;
+}
+.parallax__layer--deep {
+  padding: 0 150vw;
+}
+.parallax__layer--deep .background {
+  opacity: 0.25;  
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;  
+  background-repeat: repeat-x;
+  background-position: top center;  
+  background-size: 100vh;
+	background-image:   url(http://assets.nydailynews.com/polopoly_fs/1.2470690.1450471686!/img/httpImage/image.jpg_gen/derivatives/landscape_1200/poll19n-3-web.jpg);
+}
+.parallax__layer--back {
+  padding: 0 200vw;
+}
+.parallax__layer--back .background {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;  
+  background-repeat: repeat-x;
+  background-position: bottom center;  
+  background-size: 250vh;
+  background-image: url(http://assets.nydailynews.com/polopoly_fs/1.2470690.1450471686!/img/httpImage/image.jpg_gen/derivatives/landscape_1200/poll19n-3-web.jpg);
+}
+.parallax__layer--base{
+  padding: 0 300vw;
+}
+.parallax__layer--base .background {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  background-position: bottom center;  
+  background-size: 400vh;  
+	background-image: url(http://assets.nydailynews.com/polopoly_fs/1.2470690.1450471686!/img/httpImage/image.jpg_gen/derivatives/landscape_1200/poll19n-3-web.jpg);
+
+}
