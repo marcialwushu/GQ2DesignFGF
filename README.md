@@ -3,6 +3,7 @@
 [![N|Solid](http://www.fgf.edu.br/wp-content/themes/fgf-28-05-2013_RESPONSIVO/images/fgf-faculdade-integrada-da-grande-fortaleza.png)](http://www.fgf.edu.br/)
 
 Tecnologias utilizadas no projeto para a disciplina do curso de Sistemas para Internet.
+Link do projeto no github pages : [Projeto de Design - FGF ](https://marcialwushu.github.io/GQ2DesignFGF/)
 
 ![](http://wakeupandcode.com/wp-content/uploads/2013/02/html5_css_javascript.png)
 
@@ -14,9 +15,9 @@ Tecnologias utilizadas no projeto para a disciplina do curso de Sistemas para In
 | Walliton Pires | Programador Front-End |
 | Eder Sousa | Web Designer |
 
-[Organograma de funções para o projeto](http://bit.ly/cacoo-diagrams)
+## [Organograma de funções para o projeto](http://bit.ly/cacoo-diagrams)
 
-<iframe src="https://cacoo.com/diagrams/nDtka48IGx3C1BSB/view?w=400&h=300&si=BE755" width="402" height="330" frameborder="0" scrolling="no"></iframe>
+![Imgur](https://i.imgur.com/ogVNSJo.png)
 
 # Tema do Projeto
 
